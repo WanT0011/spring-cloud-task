@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: hello-task
+  datasource:
+    username: root
+    password: 110412
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.97.98.243:3306/test?useUnicode=true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+server:
+  port: 8881

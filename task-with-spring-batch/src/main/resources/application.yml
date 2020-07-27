@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: batch-task
+  datasource:
+    username: root
+    password: 110412
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true
+  batch:
+    initialize-schema: always
+  profiles:
+    active: dev
+
+
